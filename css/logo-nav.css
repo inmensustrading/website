@@ -5,21 +5,20 @@
  */
 
 body {
-  padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
-.text-center {
-  text-align: center;
+  padding-top: 1.5em;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hr-top {
+  margin-bottom: 0.5em;
+}
+
+.hr-bot {
+  margin-top: 0.25em;
+  margin-bottom: 1em;
 }
